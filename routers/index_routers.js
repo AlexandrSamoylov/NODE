@@ -9,13 +9,14 @@ router.post("/", function (req, res) {
   res.end("/");
 });
 
-router.get("/register", register.form);
-router.post("/register", function (req, res) {});
+router.get("/entries", entries.form);
+router.post("/entry", entry.?);
 
-router.get("/login", function (req, res) {
-  res.render("login.ejs");
-});
-router.post("/login", function (req, res) {});
+router.get("/register", register.form);
+router.post("/register", register.submit);
+
+router.get("/login", login.form);
+router.post("/login", login.submit);
 
 router.get("/test", function (req, res) {
   res.end("/test");
