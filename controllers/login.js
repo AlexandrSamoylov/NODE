@@ -18,4 +18,11 @@ exports.submit = (req, res, next) => {
   });
 };
 
-exports.lagout = function (req, res) {};
+exports.lagout = function (req, res, next) {
+  req.session.destroy((err) => {
+    if (err) {
+      return next(err);
+      res.redirect("/");
+    }
+  });
+};

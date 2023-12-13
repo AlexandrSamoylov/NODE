@@ -1,13 +1,14 @@
 const express = require("express");
 const favicon = require("express-favicon");
-const path = require("path");
 const fs = require("fs");
 const ejs = require("ejs");
 const session = require("express-session");
 
 const app = express();
 const myRoutes = require("./routers/index_routers");
-const userSession = require("../middleware/user_session");
+const userSession = require("./middleware/user_session"); //КАКАЯ-ТО ХЕРНЯ
+
+const path = require("path");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -38,9 +39,9 @@ app.use(favicon(__dirname + "/public/favicon.ico"));
 const filePath = path.join(__dirname, "tmp", "logger.txt");
 fs.writeFile(filePath, "", (err) => {
   if (err) console.error(err);
-  console.log("файл создан");
 });
 
+// app.use(userSession);
 app.use(myRoutes);
 
 function addLine(line) {
