@@ -14,9 +14,8 @@ exports.submit = (req, res, next) => {
         if (err) return next(err);
         req.session.userEmail = req.body.dataForm.email;
         req.session.userName = req.body.dataForm.name;
+        res.redirect("/");
       });
     }
-    res.redirect("/");
   });
 };
-//SEHGERHSERHDRTH

@@ -5,10 +5,10 @@ exports.form = (req, res) => {
 };
 
 exports.submit = (req, res, next) => {
-  User.authentificate(req.body.loginForm, (err, data) => {
+  User.authentificate(req.body.LoginForm, (err, data) => {
     if (err) return next(err);
     if (!data) {
-      console.log("Пароль не верный");
+      console.log("Имя или пароль неверный");
       res.redirect("back");
     } else {
       req.session.userEmail = data.email;
@@ -18,11 +18,9 @@ exports.submit = (req, res, next) => {
   });
 };
 
-exports.lagout = function (req, res, next) {
+exports.logout = function (req, res) {
   req.session.destroy((err) => {
-    if (err) {
-      return next(err);
-      res.redirect("/");
-    }
+    if (err) return next(err);
+    res.redirect("/");
   });
 };

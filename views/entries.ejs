@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="/css/bootstrap.css" />
 </head>
 <body>
+    <header class="header"><%- include("partials/header") %></header>
     <div class="container">
 <%- include ('./partials/menu') %>
 <%#- include ('./partials/messages') %>
-<%# entries.forEach((entry)=>{ %>
+<% entries.forEach((entry)=>{ %>
     <div class="card entry" style="width: 66rem;">
         <div class="card-body ">
-          <h5 class="card-title"><%#= entry.title %></h5>
+          <h5 class="card-title"><%= entry.title %></h5>
         
         <p class="card-text">
-            <%#= entry.content %> 
-            С‚СѓС‚ РєРѕРЅС‚РµРЅС‚ Р±СѓРґРµС‚
+            <%= entry.content %> 
+            
         </p>
     </br>
-    <h6>Р—Р°РїРѕСЃС‚РёР» :   <%#= entry.username %> </h6>
+    <h6>Запостил :   <%= entry.username %> </h6>
         </div>
     </div> 
     </br>
-<%# }) %> 
+<%}) %>
 </div>
+<footer><%- include('./partials/footer')%></footer>
 </body>
 </html>

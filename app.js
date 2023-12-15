@@ -6,7 +6,7 @@ const session = require("express-session");
 
 const app = express();
 const myRoutes = require("./routers/index_routers");
-const userSession = require("./middleware/user_session"); //КАКАЯ-ТО ХЕРНЯ
+const userSessions = require("./middleware/user_session");
 
 const path = require("path");
 
@@ -41,7 +41,7 @@ fs.writeFile(filePath, "", (err) => {
   if (err) console.error(err);
 });
 
-// app.use(userSession);
+app.use(userSessions);
 app.use(myRoutes);
 
 function addLine(line) {
