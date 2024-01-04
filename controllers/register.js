@@ -8,7 +8,7 @@ exports.submit = (req, res, next) => {
   User.findByEmail(req.body.dataForm.email, (err, user) => {
     if (err) return next(err);
     if (user) {
-      console.log("такой пользователь есть в базе");
+      console.log("Такой пользователь есть уже в базе");
     } else {
       User.create(req.body.dataForm, (err) => {
         if (err) return next(err);

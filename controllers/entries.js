@@ -3,7 +3,8 @@ const Entry = require("../models/entry");
 exports.list = (req, res, next) => {
   Entry.selectAll((err, entries) => {
     if (err) return next(err);
-    res.render("entries", { title: "List", entries: entries });
+    const userData = req.user;
+    res.render("entries", { title: "List", entries: entries, user: userData });
   });
 };
 
@@ -26,4 +27,15 @@ exports.submit = (req, res, next) => {
   } catch (err) {
     return next(err);
   }
+};
+
+exports.delete = (req, res, next) => {
+  const entryId = req.params.id;
+
+  Entry.delete(entryId, (err) => {
+    if (err) {
+      return next(err);
+    }
+    res.redirect("/");
+  });
 };

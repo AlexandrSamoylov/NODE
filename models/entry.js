@@ -17,6 +17,13 @@ class Entry {
   static selectAll(cb) {
     db.all("SELECT * FROM entries", cb);
   }
+
+  static delete(id, cb) {
+    const sql = "DELETE FROM entries WHERE id = ?";
+    db.run(sql, id, err=> {
+    if (err) return cb(err);
+    });
+  }
 }
 
 module.exports = Entry;
