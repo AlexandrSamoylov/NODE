@@ -24,6 +24,21 @@ class Entry {
     if (err) return cb(err);
     });
   }
+
+  static getEntryById(entryId, cb) {
+    const sql = "SELECT * FROM entries WHERE id = ?";
+    db.get(sql, entryId, cb);
+  }
+  static update(entryId, newData, cb) {
+    const sql = "UPDATE entries SET title =?, content =? WHERE id =?";
+    db.run(sql, newData.title, newData.content, entryId, err => {
+      if (err) {
+        return cb(err);
+      } else {
+        cb(null);
+      }
+    });
+  }
 }
 
 module.exports = Entry;

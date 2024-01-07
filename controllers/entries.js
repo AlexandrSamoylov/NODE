@@ -39,3 +39,28 @@ exports.delete = (req, res, next) => {
     res.redirect("/");
   });
 };
+
+exports.updateForm = (req, res) => {
+  const entryId = req.params.id;
+  Entry.getEntryById(entryId, (err, entry) => {
+    if (err) {
+      return res.redirect("/posts");
+    }
+    res.render("update", { title: "Update", entry: entry });
+  });
+};
+
+exports.updateSubmit = (req, res, next) => {
+  const entryId = req.params.id;
+  const newData = {
+    title: req.body.entry.title,
+    content: req.body.entry.content,
+  };
+
+  Entry.update(entryId, newData, (err) => {
+    if (err) {
+      return next(err);
+    }
+    res.redirect("/");
+  });
+};
