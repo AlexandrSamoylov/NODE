@@ -29,28 +29,28 @@ exports.submit = (req, res, next) => {
   }
 };
 
-exports.delete = (req, res, next) => {
+exports.delete = async(req, res, next) => {
   const entryId = req.params.id;
 
-  Entry.delete(entryId, (err) => {
+  Entry.delete(entryId, async(err) => {
     if (err) {
       return next(err);
     }
-    res.redirect("/");
+    await res.redirect("/");
   });
 };
 
 exports.updateForm = (req, res) => {
   const entryId = req.params.id;
-  Entry.getEntryById(entryId, (err, entry) => {
+  Entry.getEntryById(entryId, async(err, entry) => {
     if (err) {
-      return res.redirect("/posts");
+      return res.redirect("/");
     }
-    res.render("update", { title: "Update", entry: entry });
+    await res.render("update", { title: "Update", entry: entry });
   });
 };
 
-exports.updateSubmit = (req, res, next) => {
+exports.updateSubmit = async(req, res, next) => {
   const entryId = req.params.id;
   const newData = {
     title: req.body.entry.title,
@@ -63,4 +63,5 @@ exports.updateSubmit = (req, res, next) => {
     }
     res.redirect("/");
   });
+    await res.redirect("/");
 };

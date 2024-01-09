@@ -5,7 +5,10 @@ module.exports = function (req, res, next) {
 
   User.findByEmail(req.session.userEmail, (err, userData) => {
     if (err) return next(err);
-    if (userData) req.user = res.locals.user = userData;
+    if (userData) {
+      req.user = res.locals.user = userData;
+      res.locals.admin = userData.isAdmin === 1 ? true : false;
+    }
     next();
   });
 };

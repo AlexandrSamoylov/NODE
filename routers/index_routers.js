@@ -3,8 +3,10 @@ const router = express.Router();
 const register = require("../controllers/register");
 const login = require("../controllers/login");
 const entries = require("../controllers/entries");
+const validation = require("../middleware/validate");
 
 router.get("/", entries.list);
+//НЕ ТРОГАЛ
 
 router.post("/post", entries.submit);
 router.get("/post", entries.form);
