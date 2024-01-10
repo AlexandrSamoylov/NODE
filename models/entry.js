@@ -8,7 +8,7 @@ const db = mysql.createConnection({
 });
 
 db.query(
-  "CREATE TABLE IF NOT EXISTS entries(id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(255) NOT NULL, title VARCHAR(255), content TEXT NOT NULL )"
+  "CREATE TABLE IF NOT EXISTS entries(id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(255) NOT NULL, title VARCHAR(255), content TEXT NOT NULL)"
 );
 
 class Entry {

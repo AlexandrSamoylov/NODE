@@ -21,7 +21,7 @@ const sql = `
     email VARCHAR(255) NOT NULL, 
     password VARCHAR(255) NOT NULL, 
     age INT NOT NULL, 
-    isAdmin INT
+    isAdmin INT 
   ) 
 `;
 
