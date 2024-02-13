@@ -4,10 +4,16 @@ const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
 const session = require("express-session");
+require("dotenv").config();
 const userSession = require("./middleware/user_session");
+const messages = require("./middleware/messages");
+// const morgan = require("morgan");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const port = "3000";
+const logger = require("./logger/index");
+// app.use(morgan("combined"));
+const dotenv = require("dotenv").config();
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -20,7 +26,7 @@ app.use(express.static(path.join(__dirname, "views")));
 
 app.use(
   session({
-    secret: "aboba",
+    secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
   })
@@ -35,11 +41,20 @@ app.use(
     )
   )
 );
+app.use(
+  "/js/bootstrap.js",
+  express.static(
+    path.join(__dirname, "public/css/bootstrap-5.3.2/dist/js/bootstrap.min.js")
+  )
+);
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
+app.use(messages);
 app.use(userSession);
 app.use(myRoutes);
+
+logger.info(`listen on port ${port}`);
 
 app.listen(port, () => {
   console.log(`listen on port ${port}`);
@@ -64,10 +79,11 @@ if (app.get("env") != "development") {
     console.log(err.status, err.message);
     res.status = 404;
     link = "https://centralsib.com/media/gallery/kukushka.jpg";
-    res.render("error.ejs", { err, link });
+    res.render("error.ejs", { title: "Error", err, link });
   });
 } else {
   app.use(function (err, req, res, next) {
     console.log(app.get("env"), err.status, err.message);
+    logger.error(`${app.get("env")} ${err.status} ${err.message}`);
   });
 }

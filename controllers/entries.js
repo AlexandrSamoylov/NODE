@@ -1,4 +1,5 @@
 const Entry = require("../models/entry");
+const logger = require("../logger/index");
 
 exports.list = (req, res, next) => {
   Entry.selectAll((err, entries) => {
@@ -27,6 +28,7 @@ exports.submit = (req, res, next) => {
     Entry.create(entry);
     res.redirect("/posts");
   } catch (err) {
+    logger.error(`Произошла ошибка: ${err}`);
     return next(err);
   }
 };
@@ -36,6 +38,7 @@ exports.delete = async (req, res, next) => {
 
   Entry.delete(entryId, async (err) => {
     if (err) {
+      logger.error(`Произошла ошибка: ${err}`);
       return next(err);
     }
     await res.redirect("/posts");
