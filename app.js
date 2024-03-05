@@ -14,6 +14,9 @@ const port = "3000";
 const logger = require("./logger/index");
 // app.use(morgan("combined"));
 const dotenv = require("dotenv").config();
+const cookieParser = require("cookie-parser");
+const passport = require("passport");
+const passportFunction = require("./middleware/passport");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -31,6 +34,9 @@ app.use(
     saveUninitialized: true,
   })
 );
+app.use(cookieParser());
+app.use(passport.initialize());
+passportFunction(passport);
 
 app.use(
   "/css/bootstrap.css",

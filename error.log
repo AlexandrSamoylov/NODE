@@ -1,0 +1,275 @@
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-19T07:55:27.826Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-19T08:05:49.224Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:24:55.272Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:24:55.468Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:25:36.205Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:25:36.320Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:26:47.777Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:26:47.986Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:29:43.132Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:29:43.318Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:09.940Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:10.091Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:31:54.603Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:31:59.798Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:32:05.701Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:32:16.422Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:32:38.811Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:32:48.310Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:32:48.402Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:35:05.580Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:01:30.170Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:01:30.292Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:04:38.323Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:26:27.894Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:26:27.985Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:27:48.453Z'
+}
+{
+  message: 'development undefined res.ClearCookie is not a function',
+  level: 'error',
+  timestamp: '2024-02-26T09:27:59.039Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:25.351Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:25.369Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:47.333Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:47.496Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:47.501Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:52.358Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.426Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.429Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.430Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.431Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.432Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.433Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:15.667Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:15.739Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:44.429Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:44.491Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:02:31.413Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:02:31.584Z'
+}
+{
+  message: 'development undefined User.findByName is not a function',
+  level: 'error',
+  timestamp: '2024-03-05T06:04:12.400Z'
+}
+{
+  message: 'development undefined User.findByName is not a function',
+  level: 'error',
+  timestamp: '2024-03-05T06:06:07.886Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:18:22.344Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:18:22.375Z'
+}
+{
+  message: 'development undefined User.findByName is not a function',
+  level: 'error',
+  timestamp: '2024-03-05T06:19:21.407Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:01.960Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:01.969Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:34.432Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:34.497Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:49.028Z'
+}

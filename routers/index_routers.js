@@ -4,6 +4,7 @@ const register = require("../controllers/register");
 const login = require("../controllers/login");
 const entries = require("../controllers/entries");
 const validate = require("../middleware/validate");
+const passport = require("passport");
 
 router.get("/", entries.list);
 
@@ -12,6 +13,7 @@ router.get("/posts", entries.list);
 router.get("/post", entries.form);
 router.post(
   "/post",
+  passport.authenticate("jwt", { session: false }),
   validate.required("entry[title]"),
   validate.required("entry[content]"),
   validate.lengthAbove("entry[title]", 4),

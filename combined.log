@@ -13,3 +13,673 @@
   level: 'info',
   timestamp: '2024-02-12T07:24:26.837Z'
 }
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:51:22.308Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:55:24.764Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-19T07:55:27.826Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:55:54.526Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:56:44.906Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:58:08.444Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-19T08:05:36.901Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-19T08:05:49.224Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-19T08:07:23.415Z'
+}
+{
+  message: 'Токен подготовленeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZnVja215YXNzIiwiaWF0IjoxNzA4MzMwMTEzLCJleHAiOjE3MDgzMzM3MTN9.8IXeSipJ4KwO1xXOXQhLwxfNqbiy2FA_70vud8-yFjw',
+  level: 'info',
+  timestamp: '2024-02-19T08:08:33.039Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:24:41.830Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:24:55.272Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:24:55.468Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:25:36.205Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:25:36.320Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:26:39.899Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:26:47.777Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:26:47.986Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:28:50.698Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:37.748Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:29:43.132Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:29:43.318Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:09.940Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:30:10.091Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:31:34.779Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:31:54.603Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:31:59.798Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:32:05.701Z'
+}
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-02-26T08:32:16.422Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:32:38.811Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:32:48.310Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T08:32:48.402Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:34:24.405Z'
+}
+{
+  message: 'Такой пользователь в базе уже существует',
+  level: 'error',
+  timestamp: '2024-02-26T08:35:05.580Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:37:12.825Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:37:19.867Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:38:26.453Z'
+}
+{
+  message: 'First token logintransferred successfully.',
+  level: 'info',
+  timestamp: '2024-02-26T08:38:54.343Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:42:33.395Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:43:24.084Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:51:16.418Z'
+}
+{
+  message: 'First token logintransferred successfully.',
+  level: 'info',
+  timestamp: '2024-02-26T08:51:33.728Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:52:47.916Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:52:59.036Z'
+}
+{
+  message: 'First token logintransferred successfully.',
+  level: 'info',
+  timestamp: '2024-02-26T08:53:35.003Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:57:11.437Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:57:19.089Z'
+}
+{
+  message: 'First token logintransferred successfully.',
+  level: 'info',
+  timestamp: '2024-02-26T08:57:41.416Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:59:00.625Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:59:18.327Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:59:29.195Z'
+}
+{
+  message: 'Создался новый пользователь',
+  level: 'info',
+  timestamp: '2024-02-26T08:59:39.865Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:00:51.410Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:00:59.941Z'
+}
+{
+  message: 'Создался новый пользователь',
+  level: 'info',
+  timestamp: '2024-02-26T09:01:19.934Z'
+}
+{
+  message: 'First token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T09:01:19.937Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:01:30.170Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:01:30.292Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:04:38.248Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:04:38.323Z'
+}
+{
+  message: 'Создался новый пользователь',
+  level: 'info',
+  timestamp: '2024-02-26T09:05:25.575Z'
+}
+{
+  message: 'First token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T09:05:25.579Z'
+}
+{
+  message: 'Создался новый пользователь',
+  level: 'info',
+  timestamp: '2024-02-26T09:05:38.787Z'
+}
+{
+  message: 'First token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T09:05:38.788Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:08:24.818Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:11:56.850Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:13:33.756Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:15:51.185Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:16:26.405Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:17:34.751Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:22:06.223Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:24:10.814Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:25:21.266Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T09:25:27.151Z'
+}
+{
+  message: 'Token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T09:25:32.783Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:25:54.524Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-02-26T09:25:54.653Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T09:25:55.580Z'
+}
+{
+  message: 'Token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T09:26:01.097Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:26:27.894Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:26:27.985Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:27:48.234Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:27:48.453Z'
+}
+{
+  message: 'development undefined res.ClearCookie is not a function',
+  level: 'error',
+  timestamp: '2024-02-26T09:27:59.039Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:28:24.980Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-02-26T09:28:25.108Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:25.351Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:25.369Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-02-26T09:28:27.221Z'
+}
+{
+  message: 'Token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T09:28:32.190Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-02-26T09:28:38.854Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:47.333Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:47.496Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:47.501Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:28:52.358Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T09:33:02.105Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.426Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.429Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.430Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.431Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.432Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-02-26T09:33:02.433Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T10:54:48.034Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-02-26T10:55:03.540Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-03-05T06:00:52.595Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T06:01:03.310Z'
+}
+{
+  message: 'Token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-05T06:01:09.773Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:15.667Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:15.739Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-05T06:01:24.257Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:44.429Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:01:44.491Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T06:02:11.253Z'
+}
+{
+  message: 'Token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-05T06:02:22.198Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:02:31.413Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:02:31.584Z'
+}
+{
+  message: 'development undefined User.findByName is not a function',
+  level: 'error',
+  timestamp: '2024-03-05T06:04:12.400Z'
+}
+{
+  message: 'development undefined User.findByName is not a function',
+  level: 'error',
+  timestamp: '2024-03-05T06:06:07.886Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:18:22.344Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:18:22.375Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-05T06:19:11.888Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T06:19:12.682Z'
+}
+{
+  message: 'Token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-05T06:19:17.833Z'
+}
+{
+  message: 'development undefined User.findByName is not a function',
+  level: 'error',
+  timestamp: '2024-03-05T06:19:21.407Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-03-05T06:23:03.178Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-05T06:23:05.834Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-05T06:23:06.786Z'
+}
+{
+  message: 'Token login transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-05T06:23:11.241Z'
+}
+{
+  message: 'Token accepted successfully',
+  level: 'info',
+  timestamp: '2024-03-05T06:23:15.427Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:01.960Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:01.969Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:34.432Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:34.497Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T06:33:49.028Z'
+}
