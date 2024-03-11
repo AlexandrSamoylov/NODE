@@ -28,6 +28,19 @@ router.get("/delete/:id", entries.delete);
 router.get("/register", register.form);
 router.post("/register", register.submit);
 
+router.get(
+  "/auth/yandex",
+  passport.authenticate("yandex"),
+  function (req, res) {}
+);
+router.get(
+  "/auth/yandex/callback",
+  passport.authenticate("yandex", { failureRedirect: "/login" }),
+  function (req, res) {
+    res.redirect("/");
+  }
+);
+
 router.get("/login", login.form);
 router.post("/login", login.submit);
 
