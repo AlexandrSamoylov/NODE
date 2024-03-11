@@ -16,7 +16,8 @@ const logger = require("./logger/index");
 const dotenv = require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const passport = require("passport");
-const passportFunction = require("./middleware/passport");
+// const passportFunction = require("./middleware/passport_jwt");
+const passportFunction = require("./middleware/passport_yandex");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -36,6 +37,7 @@ app.use(
 );
 app.use(cookieParser());
 app.use(passport.initialize());
+app.use(passport.session());
 passportFunction(passport);
 
 app.use(

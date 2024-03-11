@@ -273,3 +273,13 @@
   level: 'error',
   timestamp: '2024-03-05T06:33:49.028Z'
 }
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T07:31:31.911Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T07:32:44.533Z'
+}

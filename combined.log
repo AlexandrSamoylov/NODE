@@ -683,3 +683,23 @@
   level: 'error',
   timestamp: '2024-03-05T06:33:49.028Z'
 }
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-03-05T07:31:31.756Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T07:31:31.911Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-05T07:32:44.533Z'
+}
+{
+  message: 'listen on port 3000',
+  level: 'info',
+  timestamp: '2024-03-05T08:17:01.603Z'
+}
